@@ -1,14 +1,177 @@
 * {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --green: rgb(178, 223, 40);    
+  --dark-blue: #001f32;
+  --blue: #012e4f;
+  --medium-blue: #014d6d;
+  --light-blue: #1a9dd1;
+  --white: #ffff;
 }
 
-.title {
-    color: var(--green);
+body {
+  border: 2px solid red;
+}
+
+header {
+  background-color: var(--blue);
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.header-button {
+  border-radius: 8px;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: 2%;
+  margin-left: 3%;
+}
+
+.header-links {
+  position: relative;
+  top: 6%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 5% 0;
+}
+
+.header-link,
+.nav-link {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 0.9rem;
+}
+
+.section-search {
+  display: flex;
+  padding: 0 1% 0;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  color: var(--dark-blue);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+
+.logo-title-prefeitura {
+  font-size: 1rem;
+}
+
+.logo-tatui {
+  height: 15vh;
+}
+
+.logo-title {
+  font-weight: bolder;
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.icons-container {
+  margin: 1%;
+}
+
+.icons {
+  height: 5vh;
+}
+
+.input-search {
+  border: 1px solid var(--blue);
+  height: 5vh;
+  border-radius: 8px;
+  margin: 1%;
+  padding: 0 0 0 1%;
+  width: 50vw;
+}
+
+nav {
+  background-color: var(--blue);
+  height: 10vh;
+  padding: 0 2% 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    height: 10vh;
+  }
+
+  .header-links {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .header-link {
+    margin-left: 2%;
+  }
+
+  nav {
+    height: 5vh;
+  }
+
+  .input-search {
+    width: 40vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 8% 0;
+  }
+
+  .header-links {
+    top: 0;
+    flex-direction: row;
+    width: 65%;
+    justify-content: space-evenly;
+  }
+
+  .header-buttons {
+    align-items: center;
+    width: 28%;
+  }
+
+  .header-button {
+    height: 6vh;
+  }
+
+  .section-search {
+    padding: 0 8% 0;
+    height: 15vh;
+    flex-wrap: nowrap;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 8% 0;
+  }
+
+  .input-search {
+    width: 20vw;
+  }
 }
