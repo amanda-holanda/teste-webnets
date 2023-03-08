@@ -61,3 +61,27 @@ header {
     margin-left: 2%;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 8% 0;
+  }
+
+  .header-links {
+    top: 0;
+    flex-direction: row;
+    width: 65%;
+    justify-content: space-evenly;
+  }
+
+  .header-buttons {
+    align-items: center;
+    width: 28%;
+  }
+
+  .header-button {
+    height: 6vh;
+  }
+}
