@@ -47,6 +47,36 @@ header {
   color: var(--white);
 }
 
+.section-search {
+  border: 1px solid;
+  display: flex;
+}
+
+.logo-tatui {
+  height: 100px;
+}
+
+.logo-title {
+  font-weight: bolder;
+}
+
+.icons-container {
+  display: flex;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  height: 40px;
+}
+
+.input-search {
+    border: 1px solid var(--blue);
+    height: 5vh;
+    border-radius: 8px;
+}
+
 @media screen and (min-width: 768px) {
   header {
     height: 10vh;
@@ -83,5 +113,10 @@ header {
 
   .header-button {
     height: 6vh;
+  }
+
+  .section-search {
+    padding: 0 8% 0;
+    height: 15vh;
   }
 }
