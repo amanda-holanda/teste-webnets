@@ -1,12 +1,49 @@
 * {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --blue: #0e4862;    
-    --medium-blue: #1f78cd;
-    --light-blue: #63b5cd;
+  --dark-blue: #001f32;
+  --blue: #012e4f;
+  --medium-blue: #014d6d;
+  --light-blue: #1a9dd1;
+  --white: #ffff;
+}
+
+header {
+  background-color: var(--blue);
+  height: 24vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-buttons {
+  border: 1px solid white;  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-button {
+  border-radius: 8px;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: 2%;
+}
+
+.header-links {
+  border: 1px solid white;
+  position: relative;
+  top: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-link {
+  text-decoration: none;
+  color: var(--white);
 }
