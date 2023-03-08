@@ -22,9 +22,8 @@ header {
 }
 
 .header-buttons {
-  border: 1px solid white;  
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .header-button {
@@ -32,10 +31,10 @@ header {
   background-color: var(--dark-blue);
   color: var(--white);
   padding: 2%;
+  margin-left: 3%;
 }
 
 .header-links {
-  border: 1px solid white;
   position: relative;
   top: 6%;
   display: flex;
@@ -46,4 +45,19 @@ header {
 .header-link {
   text-decoration: none;
   color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    height: 10vh;
+  }
+
+  .header-links {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .header-link {
+    margin-left: 2%;
+  }
 }
