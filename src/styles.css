@@ -6,9 +6,7 @@
 }
 
 :root {
-    --green: rgb(178, 223, 40);    
-}
-
-.title {
-    color: var(--green);
+    --blue: #0e4862;    
+    --medium-blue: #1f78cd;
+    --light-blue: #63b5cd;
 }
