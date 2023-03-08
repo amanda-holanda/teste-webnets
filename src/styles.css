@@ -13,10 +13,10 @@
   --white: #ffff;
 }
 
-body {
+/*body {
   height: 100vh;
   width: 100vw;
-}
+}*/
 
 header {
   background-color: var(--blue);
@@ -133,6 +133,10 @@ nav {
 .highlights-img {
   height: 40vh;
   border-radius: 50px;
+}
+
+.blue-container {
+  background-color: var(--blue);
 }
 
 .home-footer {
