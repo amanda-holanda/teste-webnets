@@ -25,6 +25,10 @@ header {
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header-buttons {
   display: flex;
   justify-content: center;
@@ -49,8 +53,8 @@ header {
 }
 
 .header-link,
-.nav-link {
-  text-decoration: none;
+.nav-link,
+.footer-links {
   color: var(--white);
   font-size: 0.9rem;
 }
@@ -110,6 +114,29 @@ nav {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+}
+
+.home-footer {
+  background-color: var(--blue);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.infos-container {
+  border: 1px solid white;
+}
+
+.official-acts-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1vh;
+  column-gap: 2vw;
+  padding: 2% 2% 2% 5%;
+  border-left: 1px solid;
+  margin-left: 2%;
 }
 
 @media screen and (min-width: 768px) {
@@ -173,5 +200,9 @@ nav {
 
   .input-search {
     width: 20vw;
+  }
+
+  .home-footer {
+    flex-wrap: nowrap;
   }
 }
