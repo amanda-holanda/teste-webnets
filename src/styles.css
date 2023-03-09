@@ -14,7 +14,7 @@
 }
 
 /*body {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
 }*/
 
@@ -125,13 +125,14 @@ nav {
 
 .highlights-imgs {
   display: flex;
-  justify-content: space-between;
   margin: 3% 0;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .highlights-img {
-  height: 40vh;
+  height: 26vh;
   border-radius: 50px;
 }
 
@@ -207,6 +208,15 @@ nav {
     width: 40vw;
   }
 
+  .highlights-imgs {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .highlights-img {
+    height: 17vh;
+  }
+
   .home-footer {
     flex-wrap: nowrap;
   }
@@ -250,6 +260,15 @@ nav {
 
   .highlights {
     margin: 3% 10%;
+  }
+
+  .highlights-imgs {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .highlights-img {
+    height: 40vh;
   }
 
   .input-search {
