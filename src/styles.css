@@ -168,6 +168,34 @@ nav {
   color: var(--blue);
 }
 
+.news-img {
+  height: 28vh;
+  border-radius: 20px;
+  object-fit: scale-down;
+}
+
+.main-news-img {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.news-caption {
+  color: gray;
+}
+
+.date {
+  font-weight: lighter;
+}
+
+.info {
+  font-size: 0.7em;
+  margin: 0 3%;
+}
+
 .buttons-container {
   width: 80vw;
   position: relative;
