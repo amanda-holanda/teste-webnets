@@ -226,6 +226,27 @@ nav {
   left: 80%;
 }
 
+.galery-container {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 3% 10%;
+}
+
+.galery-imgs {
+  width: 55%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10%;
+  row-gap: 5%;
+  margin: 4% 0;
+}
+
+.img-galery {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
 .buttons-container {
   width: 80vw;
   position: relative;
@@ -356,6 +377,10 @@ nav {
 
   .buttons-container-link {
     height: 10vh;
+  }
+
+  .galery-imgs { 
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .home-footer {
