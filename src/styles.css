@@ -162,6 +162,12 @@ nav {
   height: 2vh;
 }
 
+.news-container {
+  border: 1px solid red;
+  margin: 3% 10%;
+  color: var(--blue);
+}
+
 .buttons-container {
   width: 80vw;
   position: relative;
