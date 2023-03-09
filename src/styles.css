@@ -236,7 +236,7 @@ nav {
   width: 55%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 10%;
+  column-gap: 5%;
   row-gap: 5%;
   margin: 4% 0;
 }
@@ -381,6 +381,7 @@ nav {
 
   .galery-imgs { 
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0;
   }
 
   .home-footer {
