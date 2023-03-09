@@ -138,9 +138,7 @@ nav {
 
 .blue-container {
   background-color: var(--blue);
-  height: 10vh;
-  width: 20vw;
-  height: 10vh;
+  height: 15vh;
   width: 80vw;
   position: relative;
   margin: 1% auto;
@@ -155,6 +153,13 @@ nav {
   color: var(--white);
   font-weight: bolder;
   font-size: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-container-icon {
+  height: 2vh;
 }
 
 .home-footer {
@@ -234,6 +239,10 @@ nav {
     height: 17vh;
   }
 
+  .blue-container-links {
+    font-size: 0.9em;
+  }
+
   .home-footer {
     flex-wrap: nowrap;
   }
@@ -286,6 +295,14 @@ nav {
 
   .highlights-img {
     height: 40vh;
+  }
+
+  .blue-container-links {
+    font-size: 0.9em;
+  }
+
+  .blue-container-icon {
+    height: 5vh;
   }
 
   .input-search {
