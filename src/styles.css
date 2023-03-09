@@ -215,6 +215,17 @@ nav {
   margin: 1% 3% 1% 1%;
 }
 
+.see-all-button {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-weight: bold;
+  border-radius: 20px;
+  width: 110px;
+  padding: 1% 0;
+  position: relative;
+  left: 80%;
+}
+
 .buttons-container {
   width: 80vw;
   position: relative;
