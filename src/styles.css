@@ -163,13 +163,13 @@ nav {
 }
 
 .buttons-container {
-  height: 15vh;
   width: 80vw;
   position: relative;
-  margin: 1% auto;
+  margin: 5% auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .button-icon {
@@ -177,17 +177,20 @@ nav {
 }
 
 .buttons-container-link {
-  height: 10vh;
+  height: 12vh;
   display: flex;
-  width: 16vw;
-  border-radius: 10px;
+  width: 38vw;
+  border-radius: 20px;
   color: var(--white);
   text-transform: uppercase;
   font-weight: bolder;
   text-align: center;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 0.9em;
+  font-size: 0.6em;
+  flex-wrap: wrap;
+  margin: 2% 0;
+  max-width: 38vw;
 }
 
 .lixo {
@@ -287,6 +290,10 @@ nav {
     font-size: 0.9em;
   }
 
+  .buttons-container-link {
+    height: 10vh;
+  }
+
   .home-footer {
     flex-wrap: nowrap;
   }
@@ -347,6 +354,14 @@ nav {
 
   .blue-container-icon {
     height: 5vh;
+  }
+
+  .buttons-container {
+    flex-wrap: nowrap;
+  }
+
+  .buttons-container-link {
+    width: 18vw;
   }
 
   .input-search {
