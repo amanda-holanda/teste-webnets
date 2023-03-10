@@ -35,6 +35,11 @@ a:hover {
   opacity: 0.5;
 }
 
+body {
+  background-color: var(--white);
+  color: (var(--blue));
+}
+
 .header-buttons {
   display: flex;
   justify-content: center;
@@ -51,6 +56,11 @@ a:hover {
 .darkmode {
   position: relative;
   width: 35px;
+}
+
+.dark-mode-option {
+  background-color: black;
+  color: white;
 }
 
 .half-circle-icon {
