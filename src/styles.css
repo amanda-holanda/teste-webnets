@@ -13,6 +13,12 @@
   --white: #ffff;
 }
 
+body {
+  background-color: var(--white);
+  color: (var(--blue));
+  font-size: 16px;
+}
+
 header {
   background-color: var(--blue);
   height: 20vh;
@@ -33,12 +39,6 @@ button {
 button:hover,
 a:hover {
   opacity: 0.5;
-}
-
-body {
-  background-color: var(--white);
-  color: (var(--blue));
-  font-size: 16px;
 }
 
 .header-buttons {
