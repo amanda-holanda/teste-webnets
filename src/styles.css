@@ -494,6 +494,16 @@ nav {
     left: 85%;
   }
 
+  .evnts {
+    left: 70%;
+    top: 20%;
+  }
+  
+  .edcts {
+    left: 70%;
+    top: 10%;
+  }
+
   .blue-container-links {
     font-size: 0.9em;
   }
