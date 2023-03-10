@@ -13,6 +13,12 @@
   --white: #ffff;
 }
 
+body {
+  background-color: var(--white);
+  color: (var(--blue));
+  font-size: 16px;
+}
+
 header {
   background-color: var(--blue);
   height: 20vh;
@@ -48,6 +54,24 @@ a:hover {
   margin-left: 3%;
 }
 
+.darkmode {
+  position: relative;
+  width: 35px;
+}
+
+.dark-mode-option {
+  background-color: black;
+  color: white;
+}
+
+.half-circle-icon {
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .header-links {
   position: relative;
   top: 6%;
@@ -62,7 +86,7 @@ a:hover {
 .nav-link,
 .footer-links {
   color: var(--white);
-  font-size: 0.9rem;
+  font-size: 0.9em;
 }
 
 .section-search {
@@ -82,7 +106,7 @@ a:hover {
 }
 
 .logo-title-prefeitura {
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .logo-tatui {
@@ -91,7 +115,7 @@ a:hover {
 
 .logo-title {
   font-weight: bolder;
-  font-size: 2.3rem;
+  font-size: 2.3em;
   text-align: center;
 }
 
