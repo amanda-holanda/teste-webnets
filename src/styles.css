@@ -490,6 +490,10 @@ nav {
     height: 17vh;
   }
 
+  .see-all-button {
+    left: 85%;
+  }
+
   .blue-container-links {
     font-size: 0.9em;
   }
