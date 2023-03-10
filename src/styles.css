@@ -168,6 +168,17 @@ nav {
   border-radius: 50px;
 }
 
+.highlights-img-link {
+  position: absolute;
+  left: 0%;
+  bottom: 6%;
+  color: var(--white);
+  background-color: var(--medium-blue);
+  text-align: center;
+  height: 50px;
+  border-radius: 0 0 40px 40px;
+}
+
 .blue-container {
   background-color: var(--blue);
   height: 15vh;
@@ -568,12 +579,32 @@ nav {
   }
 
   .highlights-imgs {
+    border: 1px solid green;
+  }
+
+  .highlights-img-container {
+    border: 1px solid red;
+    position: relative;
+  }
+
+  .highlights-imgs {
     flex-direction: row;
     justify-content: space-between;
   }
 
   .highlights-img {
     height: 40vh;
+  }
+
+  .highlights-img-link {
+    position: absolute;
+    left: 0%;
+    bottom: 6%;
+    color: var(--white);
+    background-color: var(--medium-blue);
+    text-align: center;
+    height: 50px;
+    border-radius: 0 0 40px 40px;
   }
 
   .blue-container-links {
